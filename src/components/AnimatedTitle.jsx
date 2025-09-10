@@ -15,8 +15,8 @@ const AnimatedTitle = ({ title, containerClass }) => {
           trigger: containerRef.current,
           start: "100 bottom",
           end: "center bottom",
-          toggleActions: "play none none reverse",
-        },
+          toggleActions:  "play none none reverse",
+          },
       });
 
       titleAnimation.to(
