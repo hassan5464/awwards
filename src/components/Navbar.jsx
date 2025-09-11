@@ -42,7 +42,7 @@ useEffect(() => {
     } else if (currentScrollY > lastScrollY) {
       // Scrolling down: hide navbar and apply floating-nav
       setIsNavVisible(false);
-      
+
     } else if (currentScrollY < lastScrollY) {
       // Scrolling up: show navbar with floating-nav
       setIsNavVisible(true);
@@ -82,7 +82,7 @@ useEffect(() => {
               <div className="hidden md:block ">
                 {navItems.map((item,index)=>(
                   <a key={index}
-                  href={`#${item.toLowerCase}`}
+                  href={`#${item.toLowerCase()}`}
                   className="nav-hover-btn ">
                     {item}
                   </a>

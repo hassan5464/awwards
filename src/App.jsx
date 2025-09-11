@@ -1,4 +1,5 @@
 import About from "./components/About";
+import FeaturedSection from "./components/FeaturedSection";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar"
 function App() {
@@ -7,6 +8,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <FeaturedSection/>
     </main>
   );
 }

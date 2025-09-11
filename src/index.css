@@ -9,6 +9,7 @@ body {
   overflow-x: hidden;
   background-color: #dfdff0;
   font-family: "General Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 
 @layer base {
@@ -144,7 +145,7 @@ body {
 }
 
 .indicator-line {
-  @apply h-3 w-px rounded-full bg-white transition-all duration-200 ease-in-out;
+  @apply h-2 w-px rounded-full bg-white transition-all duration-200 ease-in-out;
 }
 
 .indicator-line.active {
