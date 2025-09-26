@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import AnimatedTitle from './Animatedtitle'
+import AnimatedTitle from './AnimatedTitle'
 import gsap from 'gsap'
 import RoundedCorners from './RoundedCorners'
 import Button from './Button';
