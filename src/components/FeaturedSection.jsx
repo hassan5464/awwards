@@ -11,7 +11,7 @@ const BentoCard = ({src, title, description}) => {
       loop 
       autoPlay
       muted
-      className="absolute left-0 top-0 size-full object-cover"/>
+      className="absolute left-0 top-0 size-full object-cover"/> 
 
       <div className="relative z-10 flex size-full flex-col justify-between text-blue-50 p-5"> 
         <div>
@@ -35,8 +35,8 @@ const BentoTilt = ( {children, className = ""}) =>{
     
     let relativeX = (e.clientX - left ) / width;
     let relativeY = (e.clientX - top ) / height;
-    let tiltX = (relativeX - 0.5) * 20;
-    let tiltY = (relativeY - 0.5) * -20;
+    let tiltX = (relativeX - 0.5) * 10;
+    let tiltY = (relativeY - 0.5) * -10;
 
     const newtransform = `perspective(700px) rotateX(${tiltX}deg) rotateY(${tiltY}deg) scale3d(0.95, 0.95, 0.95)`;
     setTransformStyle(newtransform);
@@ -55,7 +55,7 @@ const BentoTilt = ( {children, className = ""}) =>{
       {children}
     </div>
   )
-}
+} 
 
 
 
